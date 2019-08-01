@@ -2,21 +2,21 @@
 
 # 目录
 * [demo入门](#start)
-* [webpack处理css/less/sass模块](#css)
-* [webpack的css添加c3前缀和sourcemap的处理](#cssSourcemap)
-* [webpack的css提取成单独文件](#MiniCssExtractPlugin)
-* [webpack压缩css和js](#optimize)
-* [webpack文件的hash值](#hash)
-* [webpack清理打包目录文件](#clean)
+* [处理css/less/sass模块](#css)
+* [css添加css3前缀和sourcemap的处理](#cssSourcemap)
+* [css提取成单独文件](#MiniCssExtractPlugin)
+* [压缩css和js](#optimize)
+* [文件的hash值](#hash)
+* [清理打包目录文件](#clean)
 * [图片的优化处理base64优化和字体处理](#base64)
 * [webpack的配置进行合并和提取公共配置](#webpackMerge)
-* [webpack的启动监控自动编译和启用js的sourcemap](#jsSourcemap)
-* [webpack的启动热更新和代理配置](#hot)
-* [webpack的bable转换及优化](#bable)
-* [webpack的eslint校验配置](#eslint)
-* [webpack的模块解析后缀和别名配置](#resolve)
-* [webpack的模块的外部依赖配置](#externals)
-* [webpack的打包分析报表插件与优化总结](#analyzer)
+* [启动监控自动编译和启用js的sourcemap](#jsSourcemap)
+* [热更新和代理配置](#hot)
+* [bable转换及优化](#bable)
+* [eslint配置](#eslint)
+* [模块解析后缀和别名配置](#resolve)
+* [模块的外部依赖配置](#externals)
+* [打包分析报表插件与优化总结](#analyzer)
 
 
 # demo入门
@@ -564,4 +564,4 @@ module.exports = {
     ]
 };
 ```
-配置完毕重新运行npm run dev，会自动打开一个网址，我的是http://127.0.0.1:8888/，网页内容就是文件打包报表，可以看到打包依赖关系。
+配置完毕重新运行npm run dev，会自动打开一个网址，我的是http://localhost:8888/，网页内容就是文件打包报表，可以看到打包依赖关系。
