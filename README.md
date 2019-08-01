@@ -14,9 +14,9 @@
 * [热更新和代理配置](#hot)
 * [bable转换及优化](#bable)
 * [eslint配置](#eslint)
-* [模块解析后缀和别名配置](#resolve)
-* [模块的外部依赖配置](#externals)
-* [打包分析报表插件与优化总结](#analyzer)
+* [webpack的模块解析后缀和别名配置](#resolve)
+* [webpack的模块的外部依赖配置](#externals)
+* [webpack的打包分析报表插件与优化总结](#analyzer)
 
 
 # demo入门
